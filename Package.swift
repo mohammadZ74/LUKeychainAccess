@@ -19,6 +19,7 @@ let package = Package(
         .target(
             name: "LUKeychainAccess",
             dependencies: [],
+            publicHeadersPath: "include",
             exclude: ["LUKeychainAccess-Prefix.pch", "Info.plist"]
         )
     ]
